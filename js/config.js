@@ -30,6 +30,15 @@ const API_SITES = {
     //ARCHIVE https://telegra.ph/APIs-08-12
 };
 
+const API_SITES = {
+    testSource: {
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+        name: '天堂资源',
+        adult: true
+    }
+    //ARCHIVE https://telegra.ph/APIs-08-12
+};
+
 // 定义合并方法
 function extendAPISites(newSites) {
     Object.assign(API_SITES, newSites);
